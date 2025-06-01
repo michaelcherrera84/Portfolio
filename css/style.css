@@ -136,8 +136,8 @@ h2 {
 }
 
 footer {
-    text-align: center;
     padding: 10px;
+    text-align: center;
     color: #ce4233;
     background-color: #382711;
 }
@@ -187,6 +187,20 @@ footer {
     #projects .project-screenshots .grid-item {
         width: 90%;
         margin-bottom: 15px;
+    }
+
+    #projects .credit_link {
+        font-style: italic;
+        position: relative;
+        top: 5px;
+        text-decoration: underline;
+        opacity: 0.75;
+        color: #ce4233;
+    }
+
+    #projects .credit_link:hover {
+        cursor: pointer;
+        opacity: 1;
     }
 
     #contact {padding: 50px 100px;}
