@@ -12,19 +12,19 @@
     <script type="text/javascript">
         function navColorChange() {
             let page = document.documentElement;
-            let navigation = document.getElementById("navigation");
+            let navigation = document.getElementById('navigation');
 
             if (page.scrollTop < 20) {
-                navigation.style.top = "0";
-                navigation.style.backgroundColor = "rgba(51, 52, 56, 0)";
-                navigation.style.border = "none";
-                navigation.style.boxShadow = "none";
+                navigation.style.top = '0';
+                navigation.style.backgroundColor = 'rgba(51, 52, 56, 0)';
+                navigation.style.border = 'none';
+                navigation.style.boxShadow = 'none';
             } else {
-                navigation.style.top = "5px";
-                navigation.style.backgroundColor = "white";
-                navigation.style.border = "1px solid #382711";
-                navigation.style.borderRadius = "5px";
-                navigation.style.boxShadow = "1px 1px 6px rgba(56, 39, 17, 0.75)";
+                navigation.style.top = '5px';
+                navigation.style.backgroundColor = 'white';
+                navigation.style.border = '1px solid #382711';
+                navigation.style.borderRadius = '5px';
+                navigation.style.boxShadow = '1px 1px 6px rgba(56, 39, 17, 0.75)';
             }
         }
     </script>
@@ -41,7 +41,7 @@
         <h1>Michael C. Herrera</h1>
         <p id="tagline">Software Developer</p>
     </div>
-    <img alt="bitmoji selfie" id="banner-pic" src="img/bitmoji2.png"/>
+    <img alt="bitmoji selfie" id="banner-pic" src="img/bitmoji2.png" />
 </header>
 <div id="about-me">
     <h2>ABOUT</h2>
@@ -64,8 +64,35 @@
 </div>
 <div id="projects">
     <h2>PROJECTS</h2>
-    <a href="https://github.com/michaelcherrera84/Portal" target="_blank" title="github.com/michaelcherrera84/Portal">
+    <a href="https://github.com/michaelcherrera84/Reactivities" target="_blank"
+       title="github.com/michaelcherrera84/Reactivities"
+    >
         <fieldset>
+            <legend>My Reactivities</legend>
+            <p>This application is the culmination of the Udemy course entitled "Complete guide to building an app with
+                .Net Core and React". It is a multi-project ASP.NET Core solution built using Clean Architecture and the
+                CQRS and Mediator pattern. The app is an example social network application that allows users to sign up
+                to events.</p>
+            <div class="project-screenshots">
+                <img alt="Reactivities home page screenshot" class="grid-item" src="img/reactivities/home.png">
+                <img alt="Reactivities login page screenshot" class="grid-item" src="img/reactivities/login.png">
+                <img alt="Reactivities activities page screenshot" class="grid-item"
+                     src="img/reactivities/activities.png"
+                >
+                <img alt="Reactivities activity page screenshot" class="grid-item" src="img/reactivities/activity.png">
+                <img alt="Reactivities create-activity form screenshot" class="grid-item"
+                     src="img/reactivities/create-activity.png"
+                >
+                <img alt="Reactivities profile photos screenshot" class="grid-item" src="img/reactivities/photos.png">
+                <img alt="Reactivities profile events screenshot" class="grid-item" src="img/reactivities/events.png">
+                <img alt="Reactivities profile followers screenshot" class="grid-item"
+                     src="img/reactivities/followers.png"
+                >
+            </div>
+        </fieldset>
+    </a>
+    <a href="https://github.com/michaelcherrera84/Portal" target="_blank" title="github.com/michaelcherrera84/Portal">
+        <fieldset style="margin-top: 25px;">
             <legend>Portal</legend>
             <p>This is a simple JSF (JavaServer Faces) project integrated with PrimeFaces, created as a demonstration
                 for my portfolio. The project showcases a web application built using Jakarta EE technologies and
@@ -96,7 +123,8 @@
         </fieldset>
     </a>
     <a href="https://github.com/michaelcherrera84/ASDVAssignment" target="_blank"
-       title="github.com/michaelcherrera84/ASDVAssignment">
+       title="github.com/michaelcherrera84/ASDVAssignment"
+    >
         <fieldset style="margin-top: 25px;">
             <legend>ASDV Assignments</legend>
             <p>This is a school project developed as a basic Learning Management System (LMS), inspired by platforms
@@ -110,7 +138,8 @@
         </fieldset>
     </a>
     <a href="https://github.com/michaelcherrera84/HabitTracker" target="_blank"
-       title="github.com/michaelcherrera84/HabitTracker">
+       title="github.com/michaelcherrera84/HabitTracker"
+    >
         <fieldset style="margin-top: 30px;">
             <legend>Habit Tracker</legend>
             <p>This is a beginner React Native project covering setting up screens, navigation, and fetching data.</p>
@@ -123,11 +152,13 @@
         </fieldset>
     </a>
     <a href="https://youtu.be/J50gwzwLvAk?si=3Krn6K4wFNPuDzMT" target="_blank" title="@PedroTechnologies"
-       class="credit_link">
+       class="credit_link"
+    >
         Check out the tutorial from PedroTech
     </a>
     <a href="https://github.com/michaelcherrera84/DailyMealPlanner" target="_blank"
-       title="github.com/michaelcherrera84/DailyMealPlanner">
+       title="github.com/michaelcherrera84/DailyMealPlanner"
+    >
         <fieldset style="margin-top: 30px;">
             <legend>Daily Meal Planner</legend>
             <p>This project is a full stack AI SaaS web application built with NextJS 15, TailwindCSS, Stripe,
@@ -144,7 +175,8 @@
         </fieldset>
     </a>
     <a href="https://youtu.be/RUE3nYI75VE" target="_blank" title="@PedroTechnologies"
-       class="credit_link">
+       class="credit_link"
+    >
         Check out the tutorial from PedroTech
     </a>
 </div>
