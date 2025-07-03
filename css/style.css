@@ -156,6 +156,10 @@ footer {
     background-color: #382711;
 }
 
+.rounded_image {
+    border-radius: 5px;
+}
+
 @media only screen and (min-width: 950px) {
 
     nav {
