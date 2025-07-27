@@ -50,8 +50,16 @@ function Projects() {
                          '/images/asdv-assignments/asdv-assignments2.png',
                          '/images/asdv-assignments/asdv-assignments3.png',
                          '/images/asdv-assignments/asdv-assignments4.gif',
+                         '/images/asdv-assignments/asdv-assignments5.png',
+                         '/images/asdv-assignments/asdv-assignments6.png',
+                         '/images/asdv-assignments/asdv-assignments7.gif',
                      ]}
                      url="https://github.com/michaelcherrera84/ASDVAssignment"
+            />
+
+            <Project name="GitHub"
+                     description="Check out my GitHub for more projects and tutorials that are in progress or that I have completed since graduating."
+                     url="https://github.com/michaelcherrera84"
             />
         </div>
     );
