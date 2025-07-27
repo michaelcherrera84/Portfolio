@@ -1,4 +1,4 @@
-import bannerImage from '../../assets/bitmoji2.png';
+import bannerImage from '../../../public/images/bitmoji2.png';
 
 function Banner() {
     return (
