@@ -1,19 +1,19 @@
-import Banner from './Banner';
-import NavBar from './NavBar';
-import About from './About';
-import Projects from './projects/Projects';
-import Contact from './Contact';
-import { Toaster } from 'react-hot-toast';
+import { Outlet, useLocation } from 'react-router';
+import HomePage from '../pages/HomePage';
+import NavBar from '../components/NavBar';
+import './App.css'
 
 function App() {
+    const location = useLocation();
+
     return (
         <>
-            <Toaster position="top-right" />
-            <NavBar />
-            <Banner />
-            <About />
-            <Projects />
-            <Contact />
+            {location.pathname === '/' ? <HomePage /> : (
+                <>
+                    <NavBar />
+                    <Outlet />
+                </>
+            )}
         </>
     );
 }

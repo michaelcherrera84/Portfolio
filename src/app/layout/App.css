@@ -12,5 +12,5 @@
 }
 
 .small-screen-link {
-    @apply p-1.5 border rounded-sm bg-white;
+    @apply p-1.5 border rounded-sm bg-white w-full cursor-pointer;
 }
