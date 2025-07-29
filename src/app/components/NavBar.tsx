@@ -80,7 +80,7 @@ function NavBar() {
                 <button onClick={() => handleScrollNav('contact')} className="cursor-pointer">
                     <li>Contact</li>
                 </button>
-                <Link to="/services" onClick={() => window.scrollTo(0, 0)}>
+                <Link to="/services">
                     <li>Services</li>
                 </Link>
             </ul>
