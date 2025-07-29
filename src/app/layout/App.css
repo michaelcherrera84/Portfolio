@@ -5,6 +5,10 @@
     .bg-banner-radial {
         background-image: radial-gradient(farthest-corner at 90% 75%, #5d5d5f, #58585c, #424346, #333438);
     }
+
+    .bg-banner-radial-red {
+        background-image: radial-gradient(farthest-corner at 90% 75%, #e26e61, #d96352, #d05644, #ce4233)
+    }
 }
 
 @theme {

@@ -35,7 +35,7 @@ function NavBar() {
 
     return (
         <nav className={`${scrolled ? 'bg-white shadow-md' : 'bg-transparent'} flex md:justify-end
-        items-center sticky top-0 z-50 min-h-[50px] text-[#ce4233] font-black transition-colors duration-300`}
+        items-center sticky top-0 z-50 min-h-[50px] text-[#ce4233] font-black`}
         >
             <div className={`${menuOpen ? 'bg-[#ce4233]' : 'bg-transparent'} md:hidden fixed top-0 flex justify-center 
             min-h-[50px] w-full rounded-b-sm`}
@@ -80,7 +80,7 @@ function NavBar() {
                 <button onClick={() => handleScrollNav('contact')} className="cursor-pointer">
                     <li>Contact</li>
                 </button>
-                <Link to="/services">
+                <Link to="/services" onClick={() => window.scrollTo(0, 0)}>
                     <li>Services</li>
                 </Link>
             </ul>

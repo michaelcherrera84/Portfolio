@@ -9,8 +9,8 @@ function Banner() {
                         <h1 className="font-audiowide text-3xl text-[#ce4233] text-shadow-[1px_1px_1px_#382711] text-nowrap lg:text-5xl">
                             Michael C. Herrera
                         </h1>
-                        <p className="font-medium text-2xl text-[#ce4233] text-shadow-[1px_1px_1px_#382711] text-center md:text-left">
-                            Software Developer
+                        <p className="font-medium text-1xl text-[#ce4233] text-shadow-[1px_1px_1px_#382711] text-center md:text-left md:text-2xl">
+                            Software Developer & Tutor
                         </p>
                     </div>
                     <div className="self-center md:self-end">

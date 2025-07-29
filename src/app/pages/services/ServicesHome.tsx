@@ -1,6 +1,14 @@
+import Banner from '../../components/services/Banner';
+import Description from '../../components/services/tutoring/Description';
+import Contact from '../../components/services/tutoring/Contact';
+
 function ServicesHome() {
     return (
-        <div>Coming Soon...</div>
+        <div>
+            <Banner />
+            <Description />
+            <Contact />
+        </div>
     );
 }
 
