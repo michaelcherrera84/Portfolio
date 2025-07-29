@@ -38,7 +38,7 @@ function Contact() {
     };
 
     return (
-        <form ref={form} onSubmit={sendEmail} className="px-4 pt-6 pb-12 bg-[#343944] flex flex-col">
+        <form ref={form} onSubmit={sendEmail} className="px-4 pt-6 pb-12 bg-[#343944] text-white flex flex-col">
             <input hidden name="title" value="Tutoring" />
             <div className="flex flex-col w-full md:mx-14 md:w-2/3 md:flex-row md:gap-6">
                 <div className="relative my-2 md:w-1/2">
@@ -79,7 +79,7 @@ function Contact() {
                 <label htmlFor="subjects"
                        className="absolute bg-[#343944] text-sm duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                 >
-                    Subject(s)
+                    Tutoring subject(s)
                 </label>
             </div>
 
