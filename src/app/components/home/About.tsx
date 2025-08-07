@@ -3,6 +3,14 @@ function About() {
         <>
             <div id="about" className="py-14 px-4 bg-white text-[#382711] font-medium md:px-20">
                 <h2 className="text-[#ce4233] text-2xl font-black md:text-3xl">About Me</h2>
+                <div className="mt-3 w-full shadow-[2px_2px_4px_rgba(56,39,17,0.7)] bg-[#ce4233] border text-center
+                text-white text-shadow-[1px_1px_rgba(56,39,17,0.7)] font-tahoma font-black text-2xl py-3 rounded-lg
+                md:w-64 md:float-right md:bg-white md:text-[rgba(52,57,68,0.8)] md:text-shadow-none md:text-6xl
+                md:p-8 md:m-6 md:border-[#ce4233] md:border-4 md:shadow-[1px_1px_3px_rgba(56,39,17)]
+                md:hover:-translate-x-1 md:hover:-translate-y-1 transition transform duration-300
+                md:hover:shadow-[3px_3px_6px_rgba(56,39,17,0.7)] ease-in-out">
+                    3.9 GPA
+                </div>
                 <p className="py-3.5">
                     Hi! My name is Michael Herrera (preferred name Chris). I recently completed the Application Software
                     Development program at South Louisiana Community College, earning an Associate of Applied Science
