@@ -39,7 +39,7 @@ function Contact() {
 
     return (
         <form ref={form} onSubmit={sendEmail} className="px-4 pt-6 pb-12 bg-[#343944] text-white flex flex-col">
-            <input hidden name="title" value="Tutoring" />
+            <input hidden name="title" value="Tutoring" readOnly/>
             <div className="flex flex-col w-full md:mx-14 md:w-2/3 md:flex-row md:gap-6">
                 <div className="relative my-2 md:w-1/2">
                     <input type="name"

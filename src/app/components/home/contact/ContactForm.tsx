@@ -39,7 +39,7 @@ function ContactForm({title}: {title: string}) {
 
     return (
         <form ref={form} onSubmit={sendEmail} className="flex flex-col w-full">
-            <input hidden name="title" value={title} />
+            <input hidden name="title" value={title} readOnly/>
             <label htmlFor="name" hidden />
             <input name="name" type="text" placeholder="Name" required
                    className="bg-white p-2 mt-12 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-[#343944] placeholder-gray-400 text-gray-900 text-sm"

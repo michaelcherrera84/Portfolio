@@ -18,8 +18,8 @@ function fieldset({name, description, imageUrls}: Props) {
                         key={i}
                         src={url}
                         alt="project screenshot"
-                        className="rounded-sm w-full max-w-[450px] h-auto"
-                        placeholderSrc="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCA0MCA0MCI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9IjQiIGQ9Ik0yMCA0YTE2IDE2IDAgMSAwIDE2IDE2IiBzdHJva2UtZGFzaGFycmF5PSI1LjI3MjczOTczNzMzMDYzNzIsNS4yNzI3Mzk3MzczMzA2MzczIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgLz48L3N2Zz4="
+                        className="rounded-sm w-full max-w-[450px] h-auto min-h-48 min-w-72"
+                        placeholderSrc="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj4KICA8cmFkaWFsR3JhZGllbnQgaWQ9ImExMiIgY3g9Ii42NiIgZng9Ii42NiIgY3k9Ii4zMTI1IiBmeT0iLjMxMjUiIGdyYWRpZW50VHJhbnNmb3JtPSJzY2FsZSgxLjUpIj4KICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIvPgogICAgPHN0b3Agb2Zmc2V0PSIuMyIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIuOSIvPgogICAgPHN0b3Agb2Zmc2V0PSIuNiIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIuNiIvPgogICAgPHN0b3Agb2Zmc2V0PSIuOCIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIuMyIvPgogICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjAiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxjaXJjbGUgdHJhbnNmb3JtLW9yaWdpbj0iY2VudGVyIiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjYTEyKSIgc3Ryb2tlLXdpZHRoPSIzMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtZGFzaGFycmF5PSIyMDAgMTAwMCIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjcwIj4KICAgIDxhbmltYXRlVHJhbnNmb3JtIHR5cGU9InJvdGF0ZSIgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiBjYWxjTW9kZT0ic3BsaW5lIiBkdXI9IjIiIHZhbHVlcz0iMzYwOzAiIGtleVRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAgMCAxIDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+CiAgPC9jaXJjbGU+CiAgPGNpcmNsZSB0cmFuc2Zvcm0tb3JpZ2luPSJjZW50ZXIiIGZpbGw9Im5vbmUiIG9wYWNpdHk9Ii4yIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMzAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgY3g9IjEwMCIgY3k9IjEwMCIgcj0iNzAiLz4KPC9zdmc+Cg=="
                     />
                 ))}
             </div>
