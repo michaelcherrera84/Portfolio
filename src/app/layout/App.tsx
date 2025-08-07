@@ -9,9 +9,9 @@ function App() {
 
     return (
         <>
+            <Toaster position="bottom-right" />
             {location.pathname === '/' ? <HomePage /> : (
                 <>
-                    <Toaster position="bottom-right" />
                     <NavBar />
                     <Outlet />
                 </>
