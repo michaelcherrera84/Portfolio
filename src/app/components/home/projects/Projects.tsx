@@ -6,6 +6,14 @@ function Projects() {
 
             <h2 className="text-2xl font-black md:text-3xl pb-2">Projects</h2>
 
+            <Project name="Smart Athlete"
+                     description="The project is a new work-in-progress. It is a practice .NET RESTful API, with a React frontend using the PrimeReact UI library. It feature a clean service-layer architecture, built with .Net 10 Web API and using Entity Framework Core and AutoMapper."
+                     imageUrls={[
+                         '/images/smart-athlete/smart-athlete1.png',
+                     ]}
+                     url="https://github.com/michaelcherrera84/SmartAthlete"
+            />
+
             <Project name="Reactivities"
                      description='This application is the culmination of the Udemy course entitled "Complete guide to building an app with .Net Core and React". It is a multi-project ASP.NET Core solution built using Clean Architecture and the CQRS and Mediator pattern. The app is an example social network application that allows users to sign up to events.'
                      imageUrls={[
