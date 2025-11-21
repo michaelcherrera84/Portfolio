@@ -10,6 +10,8 @@ function Projects() {
                      description="The project is a new work-in-progress. It is a practice .NET RESTful API, with a React frontend using the PrimeReact UI library. It feature a clean service-layer architecture, built with .Net 10 Web API and using Entity Framework Core and AutoMapper."
                      imageUrls={[
                          '/images/smart-athlete/smart-athlete1.png',
+                         '/images/smart-athlete/smart-athlete2.png',
+                         '/images/smart-athlete/smart-athlete3.png',
                      ]}
                      url="https://github.com/michaelcherrera84/SmartAthlete"
             />
