@@ -6,6 +6,20 @@ function Projects() {
 
             <h2 className="text-2xl font-black md:text-3xl pb-2">Projects</h2>
 
+            <Project name="ASDV Resources"
+                     description="ASDV Resources is a community-driven platform built to support students, alumni, and anyone interested in software development.<br /><br />ASDV Resources was originally created as a companion site for the Application Software Development (ASDV) program at South Louisiana Community College. It is a growing collection of tools and information related to software development and the ASDV curriculum. As the platform grows, additional content will expand beyond the immediate curriculum to include broader software development topics, professional tools, and career-oriented resources.<br /><br />ASDV Resources is not intended to be a static website maintained by a single person. One of the primary goals of the project is to encourage participation and collaboration from students and alumni. ASDV Resources was also created as a practical software development project — something larger and more realistic than a classroom assignment or isolated tutorial project. By building and maintaining a platform used by real students, contributors gain experience working on an evolving application with actual users and practical requirements. Contributors can point to their work on this project as evidence of real-world development experience."
+                     imageUrls={[
+                         '/images/asdv-resources/asdv-resources1.png',
+                         '/images/asdv-resources/asdv-resources2.png',
+                         '/images/asdv-resources/asdv-resources3.png',
+                         '/images/asdv-resources/asdv-resources4.png',
+                         '/images/asdv-resources/asdv-resources5.png',
+                         '/images/asdv-resources/asdv-resources6.png',
+                         '/images/asdv-resources/asdv-resources7.png',
+                     ]}
+                     url="https://asdv-resources.vercel.app/"
+            />
+
             <Project name="Smart Athlete"
                      description="The project is a new work-in-progress. It is a practice .NET RESTful API, with a React frontend using the PrimeReact UI library. It feature a clean service-layer architecture, built with .Net 10 Web API and using Entity Framework Core and AutoMapper."
                      imageUrls={[

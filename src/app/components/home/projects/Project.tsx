@@ -11,7 +11,7 @@ function fieldset({name, description, imageUrls}: Props) {
     return (
         <fieldset className="border p-3.5 rounded-sm">
             <legend className="font-bold">{name}</legend>
-            <p className="pb-3.5">{description}</p>
+            <p className="pb-3.5" dangerouslySetInnerHTML={{__html: description}} />
             <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3">
                 {imageUrls?.map((url, i) => (
                     <LazyLoadImage
